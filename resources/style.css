@@ -1,3 +1,49 @@
 * {
   box-sizing: border-box;
 }
+
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+}
+
+a {
+  color: seashell;
+  text-decoration: underline;
+}
+
+/*header*/
+header {
+  position: fixed;
+  background-color: black;
+  top: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+}
+
+div.logo {
+  padding-left: 10px;
+}
+
+img.logo {
+  height: 50px;
+}
+
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+span.nav-item {
+  padding: 0px 12px;
+}
