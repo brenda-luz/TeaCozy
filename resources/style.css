@@ -32,6 +32,10 @@ h3 {
   font-weight: bolder;
 }
 
+h5 {
+  font-size: 18px;
+  font-weight: bold;
+}
 
 /*header*/
 header {
@@ -130,6 +134,7 @@ div#locations {
   align-items: center;
   width: 1200px;
   height: 500px;
+  margin-top: 70px;
 }
 
 .address-blocks {
@@ -148,4 +153,19 @@ div#locations {
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
+}
+
+/*footer*/
+footer {
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+p#copyright {
+  font-size: 18px;
+  text-align: left;
+  font-weight: bolder;
+  padding: 20px;
 }
