@@ -16,6 +16,17 @@ a {
   text-decoration: underline;
 }
 
+h2, h4 {
+  color: inherit;
+  font-weight: bold;
+  padding: 10px;
+  display: block;
+}
+
+h2 {
+  font-size: 2em;
+}
+
 
 /*header*/
 header {
@@ -74,17 +85,32 @@ div#mission {
 div.title {
   width: 1200px;
   align-self: center;
-
-}
-
-h2, h4 {
-  color: inherit;
-  font-weight: bold;
-  padding: 10px;
-  display: block;
   background-color: black;
 }
 
-h2 {
-  font-size: 2em;
+/*featured*/
+div#feat {
+  display: flex;
+  width: 1000px;
+  flex-wrap: wrap;
+  align-items: center;
+  padding-top: 70px;
+}
+
+.feat-teas {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.feat-item {
+  margin: 15px;
+}
+
+.tea-img {
+  width: 300px;
+  height: 200px;
+  display: inline-block;
 }
